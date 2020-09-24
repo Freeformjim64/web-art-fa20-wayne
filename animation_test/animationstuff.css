@@ -1,0 +1,38 @@
+* {margin: 2000; padding: 7000;}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imagestuff {
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    animation-name: speen;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes speen {
+    0% {
+        width: 500px;
+        height: 500px;
+    }
+    50%{
+        width: 30px;
+        height: 30px;
+    }
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}
