@@ -1,0 +1,25 @@
+html {
+    font-family: fantasy;
+}
+
+body {
+    background: plum;
+}
+
+.title {
+    text-align: center;
+line-height: 250px ;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+}
+
+.video {
+    width: 500px;
+}
+

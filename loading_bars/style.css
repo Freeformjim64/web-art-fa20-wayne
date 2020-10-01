@@ -1,0 +1,14 @@
+html {
+    font-family: fantasy;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background: yellow;
+    width: max-content;
+}
+
+nav a {
+    margin: 20px;
+}
