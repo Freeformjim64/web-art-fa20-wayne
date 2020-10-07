@@ -49,3 +49,15 @@ width: 530px;
 
 transition: width .5s 0s;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px black;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #ffc54a;
+}
