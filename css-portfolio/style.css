@@ -21,9 +21,10 @@ header h1 {
 }
 
 .wrapper {
-    background: palegreen;
+    background-image: url(media_material/wall.png);
+    
     width: 100wv;
-    max-width: 1200px;
+    max-width: 2000px;
     height: 100vh;
     margin: 0 auto;
 
