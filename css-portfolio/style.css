@@ -37,4 +37,5 @@ header h1 {
 
 .gallery__item {
     margin: 2vmin;
+    width: 200px;
 }
