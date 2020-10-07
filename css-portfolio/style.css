@@ -40,4 +40,12 @@ header h1 {
 .gallery__item {
     margin: 2vmin;
     width: 500px;
+
+    transition: width .3s .0s;
+}
+
+.gallery__item:hover {
+width: 530px;
+
+transition: width .5s 0s;
 }
