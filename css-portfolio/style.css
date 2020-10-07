@@ -23,9 +23,10 @@ header h1 {
 .wrapper {
     background-image: url(media_material/wall.png);
     
-    width: 100wv;
+    width: 100vw;
     max-width: 2000px;
-    height: 100vh;
+    height: 2000px;
+    max-height: 2000px;
     margin: 0 auto;
 
 }
@@ -38,5 +39,5 @@ header h1 {
 
 .gallery__item {
     margin: 2vmin;
-    width: 200px;
+    width: 500px;
 }
