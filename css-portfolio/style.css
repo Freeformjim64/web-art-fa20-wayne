@@ -39,15 +39,14 @@ header h1 {
 
 .gallery__item {
     margin: 2vmin;
-    width: 500px;
+    width: clamp(250px, 25vw, 500px);
 
     transition: width .3s .0s;
 }
 
 .gallery__item:hover {
-width: 530px;
-
-transition: width .5s 0s;
+    width: clamp(275px, 27.5vw, 550px);
+    transition: width .5s 0s;
 }
 
 ::-webkit-scrollbar {
