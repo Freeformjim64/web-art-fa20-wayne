@@ -22,9 +22,7 @@ header h1 {
 
 .wrapper {
     background-image: url(media_material/wall.png);
-    
-    width: 100vw;
-    max-width: 2000px;
+    max-width: 100%;
     height: 2000px;
     max-height: 2000px;
     margin: 0 auto;
@@ -53,11 +51,34 @@ img {
     transition: width .5s 0s;
 }
 
-a::after {
-    content: "whee";
+.first::after {
+    content: "The Crew";
+    font-size: clamp(10px, 20vw, 25px);;
+    display: block;
     text-align: center;
     color: white;
     font-weight: bold;
+    text-shadow: 5px 5px black;
+}
+
+.second::after {
+    content: "The Comics";
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
+}
+
+.third::after {
+    content: "The Artist";
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
 }
 
 ::-webkit-scrollbar {
