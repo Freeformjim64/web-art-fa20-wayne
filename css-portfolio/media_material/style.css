@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Impact bold;
+}
+
+header {
+    width: clamp(200px, 30vw, 400px);
+    height: 100vh;
+    background-image: url(media_material/wall.png); 
+}
+
+.sidebar {
+    background-color: seagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
