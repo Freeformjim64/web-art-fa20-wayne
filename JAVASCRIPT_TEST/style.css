@@ -1,6 +1,7 @@
-#box {
+#cool-box {
     width: 20vmin;
     height: 20vmin;
     background: purple;
-    margin: 20px;
+    margin: 5px;
+    display: inline-block;
 }
