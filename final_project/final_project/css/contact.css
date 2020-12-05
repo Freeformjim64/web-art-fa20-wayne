@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8px;
+    width: 100%;
+}
+
+form > label {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: clamp(24px, 6.4vw, 32px);
+    width: min(320px, 100%);
+    color: #58225c;
+}
+
+form > label > input, form > label > textarea {
+    background-color: #58395a;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+}
+
+form > label > textarea {
+    resize: none;
+    height: 150px;
+}
+
+form > button {
+    border: none;
+    font-family: inherit;
+    font-size: 24px;
+    padding: .25em .5em;
+    border-radius: 8px;
+}

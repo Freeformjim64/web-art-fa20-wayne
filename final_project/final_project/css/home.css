@@ -1,0 +1,75 @@
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    width: clamp(120px, 48vw, 240px);
+    margin-bottom: 16px;
+}
+
+.social-links > a {
+    width: clamp(24px, 9.6vw, 48px);
+    height: clamp(24px, 9.6vw, 48px);
+    background: no-repeat center;
+    transition: filter .15s ease-out;
+}
+
+.social-links > a:hover, .social-links > a:focus {
+    filter: brightness(110%);
+}
+
+.social-links > a:active {
+    filter: brightness(125%);
+}
+
+.social-links > a[title="Instagram"] {
+    background-image: url("../assets/instagram.svg");
+}
+
+.social-links > a[title="Twitter"] {
+    background-image: url("../assets/twitter.svg");
+}
+
+.social-links > a[title="YouTube"] {
+    background-image: url("../assets/youtube.svg");
+}
+
+.other-links {
+    display: flex;
+    width: min(900px, 100vw);
+    padding: 0 24px;
+    margin-top: 32px;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.other-links > a.button {
+    width: 8em;
+    padding: .5em;
+    margin: .25em;
+    border-radius: .7em;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    text-decoration: none;
+    line-height: 1.4em;
+    font-size: min(36px, 4vw);
+}
+
+.other-links > a.button[title="Demo Reel"] {
+    white-space: nowrap;
+}
+
+/* switch big buttons to column mode when window size is less than 600px */ 
+@media screen and (max-width: 600px) {
+    .other-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .other-links > a.button {
+        width: 80%;
+        max-width: 288px;
+        font-size: 24px;
+    }
+}
